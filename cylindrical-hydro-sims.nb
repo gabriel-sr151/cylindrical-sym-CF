@@ -1,0 +1,115 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3510,        107]
+NotebookOptionsPosition[      2775,         85]
+NotebookOutlinePosition[      3210,        102]
+CellTagsIndexPosition[      3167,         99]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"Gabriel", " ", "Soares", " ", "Rocha"}], ",", " ", 
+    RowBox[{"Lorenzo", " ", "Gavassino"}], ",", " ", 
+    RowBox[{"Mayank", " ", "Singh"}], ",", " ", 
+    RowBox[{
+     RowBox[{"and", " ", "Jean"}], "-", 
+     RowBox[{"Francois", " ", "Paquet"}]}]}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{
+    "when", " ", "using", " ", "this", " ", "code", " ", "or", " ", 
+     "alterations", " ", "of", " ", "it"}], ",", " ", 
+    RowBox[{"please", " ", "cite", " ", 
+     RowBox[{"arXiv", ":", 
+      RowBox[{"2405.10401", "[", 
+       RowBox[{"hep", "-", "ph"}], "]"}]}]}]}], "*)"}]}]], "Input",
+ CellChangeTimes->{{3.924171794048869*^9, 3.9241717956143417`*^9}, {
+  3.9241718424389396`*^9, 3.924171863480335*^9}, {3.928220966848045*^9, 
+  3.928221008398533*^9}, {3.9282210535257826`*^9, 
+  3.928221066187371*^9}},ExpressionUUID->"7de50d96-5ef4-4b02-b4b0-\
+453c49fa6feb"],
+
+Cell[CellGroupData[{
+
+Cell["Ideal cylindrical boost-invariant hydrodynamics (1+1D)", "Section",
+ CellChangeTimes->{{3.860852969371638*^9, 3.860852976775714*^9}, 
+   3.911417198852947*^9},ExpressionUUID->"d08bd3a4-c426-4376-bce8-\
+96f949ef2553"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Arbitrary initial conditions, arbitrary equation of state (speed of sound)\
+\>", "Subsection",
+ CellChangeTimes->{{3.899120437653174*^9, 3.899120456533589*^9}, {
+  3.899121107679915*^9, 
+  3.899121109027483*^9}},ExpressionUUID->"df169965-4a1c-4273-8bd1-\
+c614a9e59324"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SuperscriptBox["u", "\[Tau]"], "=", 
+    RowBox[{"cosh", " ", 
+     RowBox[{"\[Kappa]", "(", 
+      RowBox[{"\[Tau]", ",", "r"}], ")"}]}]}], ";", " ", 
+   RowBox[{
+    SuperscriptBox["u", "r"], "=", 
+    RowBox[{"sinh", " ", 
+     RowBox[{"\[Kappa]", "(", 
+      RowBox[{"\[Tau]", ",", "r"}], ")"}]}]}], ";"}], TraditionalForm]],
+ FormatType->
+  TraditionalForm,ExpressionUUID->"50fe7164-e169-4a46-9112-25e2be92773f"]], \
+"Text",
+ CellChangeTimes->{{3.92417168508998*^9, 3.924171789682996*^9}, {
+  3.924171893746084*^9, 
+  3.9241719283662205`*^9}},ExpressionUUID->"a7151188-d0f8-4ca2-bdaa-\
+eb29a718f352"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1152, 651.6},
+WindowMargins->{{
+  Automatic, -5.399999999999864}, {-5.399999999999977, Automatic}},
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (June 3, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"e133f1ea-03ea-4e06-929a-8934fd5de726"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 965, 23, 67, "Input",ExpressionUUID->"7de50d96-5ef4-4b02-b4b0-453c49fa6feb"],
+Cell[CellGroupData[{
+Cell[1548, 47, 222, 3, 67, "Section",ExpressionUUID->"d08bd3a4-c426-4376-bce8-96f949ef2553"],
+Cell[CellGroupData[{
+Cell[1795, 54, 279, 6, 54, "Subsection",ExpressionUUID->"df169965-4a1c-4273-8bd1-c614a9e59324"],
+Cell[2077, 62, 670, 19, 33, "Text",ExpressionUUID->"a7151188-d0f8-4ca2-bdaa-eb29a718f352"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
