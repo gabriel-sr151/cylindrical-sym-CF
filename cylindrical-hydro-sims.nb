@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    573425,      11691]
-NotebookOptionsPosition[    563037,      11549]
-NotebookOutlinePosition[    563472,      11566]
-CellTagsIndexPosition[    563429,      11563]
+NotebookDataLength[    536243,      10888]
+NotebookOptionsPosition[    530493,      10798]
+NotebookOutlinePosition[    530928,      10815]
+CellTagsIndexPosition[    530885,      10812]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -32,15 +32,16 @@ Cell[BoxData[
    RowBox[{
     RowBox[{
     "when", " ", "using", " ", "this", " ", "code", " ", "or", " ", 
-     "alterations", " ", "of", " ", "it"}], ",", " ", 
+     "alterations", " ", "thereof"}], ",", " ", 
     RowBox[{"please", " ", "cite", " ", 
      RowBox[{"arXiv", ":", 
       RowBox[{"2405.10401", "[", 
        RowBox[{"hep", "-", "ph"}], "]"}]}]}]}], "*)"}]}]], "Input",
  CellChangeTimes->{{3.924171794048869*^9, 3.9241717956143417`*^9}, {
-  3.9241718424389396`*^9, 3.924171863480335*^9}, {3.928220966848045*^9, 
-  3.928221008398533*^9}, {3.9282210535257826`*^9, 
-  3.928221066187371*^9}},ExpressionUUID->"7de50d96-5ef4-4b02-b4b0-\
+   3.9241718424389396`*^9, 3.924171863480335*^9}, {3.928220966848045*^9, 
+   3.928221008398533*^9}, {3.9282210535257826`*^9, 3.928221066187371*^9}, 
+   3.929001605603383*^9, {3.9306535801955156`*^9, 
+   3.930653584179586*^9}},ExpressionUUID->"7de50d96-5ef4-4b02-b4b0-\
 453c49fa6feb"],
 
 Cell[CellGroupData[{
@@ -1463,279 +1464,6 @@ Cell[BoxData[
    3.9287541804030013`*^9}},ExpressionUUID->"5d34089f-53cc-4920-a2f6-\
 ed08d66fd9c2"],
 
-Cell[BoxData[
- TemplateBox[{
-  "NDSolve", "bcart", 
-   "\"Warning: an insufficient number of boundary conditions have been \
-specified for the direction of independent variable \
-\\!\\(\\*RowBox[{\\\"r\\\"}]\\). Artificial boundary effects may be present \
-in the solution.\"", 2, 22, 1, 27508592595915452520, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.9287521069615345`*^9},
- CellLabel->
-  "During evaluation of \
-In[12]:=",ExpressionUUID->"db66e115-9b22-428f-8fa4-38b95d1f1d8f"],
-
-Cell[BoxData[
- TemplateBox[{
-  "NDSolve", "eerr", 
-   "\"Warning: scaled local spatial error estimate of \
-\\!\\(\\*RowBox[{\\\"1621.1580204472066`\\\"}]\\) at \\!\\(\\*RowBox[{\\\"tau\
-\\\"}]\\) = \\!\\(\\*RowBox[{\\\"50.`\\\"}]\\) in the direction of \
-independent variable \\!\\(\\*RowBox[{\\\"r\\\"}]\\) is much greater than the \
-prescribed error tolerance. Grid spacing with \
-\\!\\(\\*RowBox[{\\\"25\\\"}]\\) points may be too large to achieve the \
-desired accuracy or precision. A singularity may have formed or a smaller \
-grid spacing can be specified using the MaxStepSize or MinPoints method \
-options.\"", 2, 22, 2, 27508592595915452520, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.928752109690687*^9},
- CellLabel->
-  "During evaluation of \
-In[12]:=",ExpressionUUID->"2fb4a06d-3f36-4d0a-8696-8d9fcd8e2371"],
-
-Cell[BoxData[
- TemplateBox[{
-  "StringForm", "sfr", 
-   "\"Item \\!\\(\\*RowBox[{\\\"2\\\"}]\\) requested in \\\"\\!\\(\\*RowBox[{\
-\\\"\\\\\\\"Value `1` returned from `2` was not an \
-integer.\\\\\\\"\\\"}]\\)\\\" out of range; \\!\\(\\*RowBox[{\\\"1\\\"}]\\) \
-items available.\"", 2, 22, 4, 27508592595915452520, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.9287521133348827`*^9},
- CellLabel->
-  "During evaluation of \
-In[12]:=",ExpressionUUID->"29ae4916-98c6-48a9-91cd-f8ba20cc774e"],
-
-Cell[BoxData[
- TemplateBox[{
-  "Internal`CreateAsynchronousTask", "id", 
-   "\"Value \\!\\(\\*RowBox[{\\\"LibraryFunctionError\\\", \\\"[\\\", \
-RowBox[{\\\"\\\\\\\"LIBRARY_FUNCTION_ERROR\\\\\\\"\\\", \\\",\\\", \
-\\\"6\\\"}], \\\"]\\\"}]\\) returned from `2` was not an integer.\"", 2, 22, 
-   3, 27508592595915452520, "Local", "Internal`CreateAsynchronousTask"},
-  "MessageTemplate2"]], "Message", "MSG",
- CellChangeTimes->{3.9287521134143*^9},
- CellLabel->
-  "During evaluation of \
-In[12]:=",ExpressionUUID->"4645bfc3-0e1e-461a-926a-29c0e30621dc"],
-
-Cell[BoxData[
- TemplateBox[{
-  "StringForm", "sfr", 
-   "\"Item \\!\\(\\*RowBox[{\\\"2\\\"}]\\) requested in \\\"\\!\\(\\*RowBox[{\
-\\\"\\\\\\\"Value `1` returned from `2` was not an \
-integer.\\\\\\\"\\\"}]\\)\\\" out of range; \\!\\(\\*RowBox[{\\\"1\\\"}]\\) \
-items available.\"", 2, 22, 6, 27508592595915452520, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.9287521135808144`*^9},
- CellLabel->
-  "During evaluation of \
-In[12]:=",ExpressionUUID->"38a5444b-4134-4166-90d1-8377dc20b572"],
-
-Cell[BoxData[
- TemplateBox[{
-  "Internal`CreateAsynchronousTask", "id", 
-   "\"Value \\!\\(\\*RowBox[{\\\"LibraryFunctionError\\\", \\\"[\\\", \
-RowBox[{\\\"\\\\\\\"LIBRARY_FUNCTION_ERROR\\\\\\\"\\\", \\\",\\\", \
-\\\"6\\\"}], \\\"]\\\"}]\\) returned from `2` was not an integer.\"", 2, 22, 
-   5, 27508592595915452520, "Local", "Internal`CreateAsynchronousTask"},
-  "MessageTemplate2"]], "Message", "MSG",
- CellChangeTimes->{3.928752113584813*^9},
- CellLabel->
-  "During evaluation of \
-In[12]:=",ExpressionUUID->"bacecb16-a2b5-4082-b9c8-57e056a3e768"],
-
-Cell[BoxData[
- TemplateBox[{
-  "InterpolatingFunction", "dmval", 
-   "\"Input value \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"18.574771979517912`\
-\\\", \\\",\\\", RowBox[{\\\"-\\\", \\\"0.004248806236794415`\\\"}]}], \
-\\\"}\\\"}]\\) lies outside the range of data in the interpolating function. \
-Extrapolation will be used.\"", 2, 22, 7, 27508592595915452520, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.928752114412197*^9},
- CellLabel->
-  "During evaluation of \
-In[12]:=",ExpressionUUID->"6b18a621-7ecf-4bf9-bde0-381330646d9a"],
-
-Cell[BoxData[
- TemplateBox[{
-  "InterpolatingFunction", "dmval", 
-   "\"Input value \\!\\(\\*RowBox[{\\\"{\\\", \
-RowBox[{\\\"18.86701873770861`\\\", \\\",\\\", RowBox[{\\\"-\\\", \
-\\\"0.06251252592327183`\\\"}]}], \\\"}\\\"}]\\) lies outside the range of \
-data in the interpolating function. Extrapolation will be used.\"", 2, 22, 8, 
-   27508592595915452520, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.928752114468195*^9},
- CellLabel->
-  "During evaluation of \
-In[12]:=",ExpressionUUID->"4d60e736-f3f0-4a43-97b7-a72612b83483"],
-
-Cell[BoxData[
- TemplateBox[{
-  "InterpolatingFunction", "dmval", 
-   "\"Input value \\!\\(\\*RowBox[{\\\"{\\\", \
-RowBox[{\\\"18.86701873770861`\\\", \\\",\\\", RowBox[{\\\"-\\\", \
-\\\"0.06251252592327183`\\\"}]}], \\\"}\\\"}]\\) lies outside the range of \
-data in the interpolating function. Extrapolation will be used.\"", 2, 22, 9, 
-   27508592595915452520, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.928752114473115*^9},
- CellLabel->
-  "During evaluation of \
-In[12]:=",ExpressionUUID->"db321b44-add1-46c1-a601-33d632dd28e7"],
-
-Cell[BoxData[
- TemplateBox[{
-  "General", "stop", 
-   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"InterpolatingFunction\\\
-\", \\\"::\\\", \\\"dmval\\\"}], \\\"MessageName\\\"]\\) will be suppressed \
-during this calculation.\"", 2, 22, 10, 27508592595915452520, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.9287521144781213`*^9},
- CellLabel->
-  "During evaluation of \
-In[12]:=",ExpressionUUID->"673a9fb2-0ccc-42fb-a57c-a635c44fef15"],
-
-Cell[BoxData[
- TemplateBox[{
-  "NDSolve", "bcart", 
-   "\"Warning: an insufficient number of boundary conditions have been \
-specified for the direction of independent variable \
-\\!\\(\\*RowBox[{\\\"r\\\"}]\\). Artificial boundary effects may be present \
-in the solution.\"", 2, 22, 11, 27508592595915452520, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.9287521156442013`*^9},
- CellLabel->
-  "During evaluation of \
-In[12]:=",ExpressionUUID->"c190db71-5c85-4790-a609-83f0bd5f922e"],
-
-Cell[BoxData[
- TemplateBox[{
-  "NDSolve", "eerr", 
-   "\"Warning: scaled local spatial error estimate of \
-\\!\\(\\*RowBox[{\\\"1621.1580289449448`\\\"}]\\) at \\!\\(\\*RowBox[{\\\"tau\
-\\\"}]\\) = \\!\\(\\*RowBox[{\\\"50.`\\\"}]\\) in the direction of \
-independent variable \\!\\(\\*RowBox[{\\\"r\\\"}]\\) is much greater than the \
-prescribed error tolerance. Grid spacing with \
-\\!\\(\\*RowBox[{\\\"25\\\"}]\\) points may be too large to achieve the \
-desired accuracy or precision. A singularity may have formed or a smaller \
-grid spacing can be specified using the MaxStepSize or MinPoints method \
-options.\"", 2, 22, 12, 27508592595915452520, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.928752118448172*^9},
- CellLabel->
-  "During evaluation of \
-In[12]:=",ExpressionUUID->"158e1c3d-ba21-4a2d-b722-13391d53f1ee"],
-
-Cell[BoxData[
- TemplateBox[{
-  "NDSolve", "bcart", 
-   "\"Warning: an insufficient number of boundary conditions have been \
-specified for the direction of independent variable \
-\\!\\(\\*RowBox[{\\\"r\\\"}]\\). Artificial boundary effects may be present \
-in the solution.\"", 2, 22, 13, 27508592595915452520, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.928752119904129*^9},
- CellLabel->
-  "During evaluation of \
-In[12]:=",ExpressionUUID->"194051bc-207f-4ed6-a44c-600d7b4d99c8"],
-
-Cell[BoxData[
- TemplateBox[{
-  "General", "stop", 
-   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"NDSolve\\\", \
-\\\"::\\\", \\\"bcart\\\"}], \\\"MessageName\\\"]\\) will be suppressed \
-during this calculation.\"", 2, 22, 14, 27508592595915452520, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.928752119909065*^9},
- CellLabel->
-  "During evaluation of \
-In[12]:=",ExpressionUUID->"0d2dff7b-683a-4856-8b12-778735ef7756"],
-
-Cell[BoxData[
- TemplateBox[{
-  "NDSolve", "eerr", 
-   "\"Warning: scaled local spatial error estimate of \
-\\!\\(\\*RowBox[{\\\"1621.1581481345318`\\\"}]\\) at \\!\\(\\*RowBox[{\\\"tau\
-\\\"}]\\) = \\!\\(\\*RowBox[{\\\"50.`\\\"}]\\) in the direction of \
-independent variable \\!\\(\\*RowBox[{\\\"r\\\"}]\\) is much greater than the \
-prescribed error tolerance. Grid spacing with \
-\\!\\(\\*RowBox[{\\\"25\\\"}]\\) points may be too large to achieve the \
-desired accuracy or precision. A singularity may have formed or a smaller \
-grid spacing can be specified using the MaxStepSize or MinPoints method \
-options.\"", 2, 22, 15, 27508592595915452520, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.9287521225411506`*^9},
- CellLabel->
-  "During evaluation of \
-In[12]:=",ExpressionUUID->"5acb761b-0b75-48a2-b9a7-9aeaa2ed0ce7"],
-
-Cell[BoxData[
- TemplateBox[{
-  "General", "stop", 
-   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"NDSolve\\\", \
-\\\"::\\\", \\\"eerr\\\"}], \\\"MessageName\\\"]\\) will be suppressed during \
-this calculation.\"", 2, 22, 16, 27508592595915452520, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.928752122547144*^9},
- CellLabel->
-  "During evaluation of \
-In[12]:=",ExpressionUUID->"e3ebde26-4237-4247-915c-6974d6586642"],
-
-Cell[BoxData[
- TemplateBox[{
-  "NDSolve", "ndsz", 
-   "\"At \\!\\(\\*RowBox[{\\\"chi\\\"}]\\) == \
-\\!\\(\\*RowBox[{\\\"765.8265094547384`\\\"}]\\), step size is effectively \
-zero; singularity or stiff system suspected.\"", 2, 22, 17, 
-   27508592595915452520, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.928752127801239*^9},
- CellLabel->
-  "During evaluation of \
-In[12]:=",ExpressionUUID->"3f0e2b70-cc8f-4bbe-a17c-1b7752a2d796"],
-
-Cell[BoxData[
- TemplateBox[{
-  "NDSolve", "ndsz", 
-   "\"At \\!\\(\\*RowBox[{\\\"chi\\\"}]\\) == \
-\\!\\(\\*RowBox[{\\\"774.5864931127534`\\\"}]\\), step size is effectively \
-zero; singularity or stiff system suspected.\"", 2, 22, 18, 
-   27508592595915452520, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.92875213207576*^9},
- CellLabel->
-  "During evaluation of \
-In[12]:=",ExpressionUUID->"092e7481-b862-418d-b31e-adfb4010aea5"],
-
-Cell[BoxData[
- TemplateBox[{
-  "NDSolve", "ndsz", 
-   "\"At \\!\\(\\*RowBox[{\\\"chi\\\"}]\\) == \
-\\!\\(\\*RowBox[{\\\"780.7754637391508`\\\"}]\\), step size is effectively \
-zero; singularity or stiff system suspected.\"", 2, 22, 19, 
-   27508592595915452520, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.928752140039338*^9},
- CellLabel->
-  "During evaluation of \
-In[12]:=",ExpressionUUID->"2bd7d874-e310-42a4-b47e-0ac738903b39"],
-
-Cell[BoxData[
- TemplateBox[{
-  "General", "stop", 
-   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"NDSolve\\\", \
-\\\"::\\\", \\\"ndsz\\\"}], \\\"MessageName\\\"]\\) will be suppressed during \
-this calculation.\"", 2, 22, 20, 27508592595915452520, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.9287521400463567`*^9},
- CellLabel->
-  "During evaluation of \
-In[12]:=",ExpressionUUID->"3148e9b2-6e64-4193-9cf8-5f5af989c37d"],
-
 Cell[CellGroupData[{
 
 Cell[BoxData[
@@ -2017,24 +1745,7 @@ Cell[BoxData[
  CellChangeTimes->{3.9287535104530506`*^9},
  CellLabel->
   "During evaluation of \
-In[12]:=",ExpressionUUID->"ab528e1d-2aa8-4520-899c-f4cd084e4275"]
-}, Open  ]],
-
-Cell[BoxData[
- TemplateBox[{
-  "FindRoot", "lstol", 
-   "\"The line search decreased the step size to within tolerance specified \
-by AccuracyGoal and PrecisionGoal but was unable to find a sufficient \
-decrease in the merit function. You may need more than \
-\\!\\(\\*RowBox[{\\\"MachinePrecision\\\"}]\\) digits of working precision to \
-meet these tolerances.\"", 2, 22, 21, 27508592595915452520, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.9287535390843415`*^9},
- CellLabel->
-  "During evaluation of \
-In[12]:=",ExpressionUUID->"025835c6-b81b-45fb-a2ae-78e9f1356c92"],
-
-Cell[CellGroupData[{
+In[12]:=",ExpressionUUID->"ab528e1d-2aa8-4520-899c-f4cd084e4275"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -6684,8 +6395,6 @@ Cell[TextData[{
    3.928754383651351*^9}},ExpressionUUID->"4404e552-cca8-4341-be70-\
 22ca2787cb73"],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[{
  RowBox[{
   RowBox[{"tau0Global", "=", ".4"}], ";"}], "\[IndentingNewLine]", 
@@ -6937,290 +6646,6 @@ Cell[BoxData[{
    3.92460773342949*^9}, {3.924610122504616*^9, 3.924610163252697*^9}},
  CellLabel->
   "In[475]:=",ExpressionUUID->"2b3a8c2c-4a23-4b62-8a46-66ce54b4b190"],
-
-Cell[BoxData[
- TemplateBox[{
-  "NDSolve", "bcart", 
-   "\"Warning: an insufficient number of boundary conditions have been \
-specified for the direction of independent variable \
-\\!\\(\\*RowBox[{\\\"r\\\"}]\\). Artificial boundary effects may be present \
-in the solution.\"", 2, 485, 142, 27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.9242780545748844`*^9, 3.92427810654056*^9, 3.9246075437478876`*^9, {
-   3.9246076956777687`*^9, 3.9246077343631105`*^9}, 3.9246083108383245`*^9, 
-   3.9246094425049405`*^9, {3.924610125779731*^9, 3.9246101637289896`*^9}, 
-   3.9246103981528397`*^9},
- CellLabel->
-  "During evaluation of \
-In[475]:=",ExpressionUUID->"b3a6a986-504e-46e7-80bf-0f3d69eead6b"],
-
-Cell[BoxData[
- TemplateBox[{
-  "NDSolve", "eerr", 
-   "\"Warning: scaled local spatial error estimate of \
-\\!\\(\\*RowBox[{\\\"2796.9637555959343`\\\"}]\\) at \\!\\(\\*RowBox[{\\\"tau\
-\\\"}]\\) = \\!\\(\\*RowBox[{\\\"50.`\\\"}]\\) in the direction of \
-independent variable \\!\\(\\*RowBox[{\\\"r\\\"}]\\) is much greater than the \
-prescribed error tolerance. Grid spacing with \
-\\!\\(\\*RowBox[{\\\"25\\\"}]\\) points may be too large to achieve the \
-desired accuracy or precision. A singularity may have formed or a smaller \
-grid spacing can be specified using the MaxStepSize or MinPoints method \
-options.\"", 2, 485, 143, 27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.9242780545748844`*^9, 3.92427810654056*^9, 3.9246075437478876`*^9, {
-   3.9246076956777687`*^9, 3.9246077343631105`*^9}, 3.9246083108383245`*^9, 
-   3.9246094425049405`*^9, {3.924610125779731*^9, 3.9246101637289896`*^9}, 
-   3.9246104017117777`*^9},
- CellLabel->
-  "During evaluation of \
-In[475]:=",ExpressionUUID->"d415b1cf-fbe2-47fa-b26e-014376c76efe"],
-
-Cell[BoxData[
- TemplateBox[{
-  "InterpolatingFunction", "dmval", 
-   "\"Input value \\!\\(\\*RowBox[{\\\"{\\\", \
-RowBox[{\\\"49.93111521027913`\\\", \\\",\\\", \\\"50.00121880849361`\\\"}], \
-\\\"}\\\"}]\\) lies outside the range of data in the interpolating function. \
-Extrapolation will be used.\"", 2, 485, 144, 27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.9242780545748844`*^9, 3.92427810654056*^9, 3.9246075437478876`*^9, {
-   3.9246076956777687`*^9, 3.9246077343631105`*^9}, 3.9246083108383245`*^9, 
-   3.9246094425049405`*^9, {3.924610125779731*^9, 3.9246101637289896`*^9}, 
-   3.924610402021799*^9},
- CellLabel->
-  "During evaluation of \
-In[475]:=",ExpressionUUID->"386c519a-f71f-4140-a3d9-ada3ab2ff98e"],
-
-Cell[BoxData[
- TemplateBox[{
-  "InterpolatingFunction", "dmval", 
-   "\"Input value \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"49.937149232457706`\
-\\\", \\\",\\\", \\\"50.00121880849361`\\\"}], \\\"}\\\"}]\\) lies outside \
-the range of data in the interpolating function. Extrapolation will be \
-used.\"", 2, 485, 145, 27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.9242780545748844`*^9, 3.92427810654056*^9, 3.9246075437478876`*^9, {
-   3.9246076956777687`*^9, 3.9246077343631105`*^9}, 3.9246083108383245`*^9, 
-   3.9246094425049405`*^9, {3.924610125779731*^9, 3.9246101637289896`*^9}, 
-   3.924610402026805*^9},
- CellLabel->
-  "During evaluation of \
-In[475]:=",ExpressionUUID->"ea611fa2-668d-40dc-87a9-116c3bfe82c5"],
-
-Cell[BoxData[
- TemplateBox[{
-  "InterpolatingFunction", "dmval", 
-   "\"Input value \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"49.937149232457706`\
-\\\", \\\",\\\", \\\"50.005193616041886`\\\"}], \\\"}\\\"}]\\) lies outside \
-the range of data in the interpolating function. Extrapolation will be \
-used.\"", 2, 485, 146, 27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.9242780545748844`*^9, 3.92427810654056*^9, 3.9246075437478876`*^9, {
-   3.9246076956777687`*^9, 3.9246077343631105`*^9}, 3.9246083108383245`*^9, 
-   3.9246094425049405`*^9, {3.924610125779731*^9, 3.9246101637289896`*^9}, 
-   3.9246104020318656`*^9},
- CellLabel->
-  "During evaluation of \
-In[475]:=",ExpressionUUID->"caa72847-0d07-437e-baac-482eddf3871c"],
-
-Cell[BoxData[
- TemplateBox[{
-  "General", "stop", 
-   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"InterpolatingFunction\\\
-\", \\\"::\\\", \\\"dmval\\\"}], \\\"MessageName\\\"]\\) will be suppressed \
-during this calculation.\"", 2, 485, 147, 27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.9242780545748844`*^9, 3.92427810654056*^9, 3.9246075437478876`*^9, {
-   3.9246076956777687`*^9, 3.9246077343631105`*^9}, 3.9246083108383245`*^9, 
-   3.9246094425049405`*^9, {3.924610125779731*^9, 3.9246101637289896`*^9}, 
-   3.924610402038807*^9},
- CellLabel->
-  "During evaluation of \
-In[475]:=",ExpressionUUID->"84c00075-26ee-42b8-9b1c-d9412bbf6885"],
-
-Cell[BoxData[
- TemplateBox[{
-  "NDSolve", "ndsz", 
-   "\"At \\!\\(\\*RowBox[{\\\"chi\\\"}]\\) == \
-\\!\\(\\*RowBox[{\\\"1558.50670711486`\\\"}]\\), step size is effectively \
-zero; singularity or stiff system suspected.\"", 2, 485, 148, 
-   27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.9242780545748844`*^9, 3.92427810654056*^9, 3.9246075437478876`*^9, {
-   3.9246076956777687`*^9, 3.9246077343631105`*^9}, 3.9246083108383245`*^9, 
-   3.9246094425049405`*^9, {3.924610125779731*^9, 3.9246101637289896`*^9}, 
-   3.924610404110962*^9},
- CellLabel->
-  "During evaluation of \
-In[475]:=",ExpressionUUID->"ae25c4f1-1a7a-48b9-b7fd-9c07f79cf2e6"],
-
-Cell[BoxData[
- TemplateBox[{
-  "NDSolve", "bcart", 
-   "\"Warning: an insufficient number of boundary conditions have been \
-specified for the direction of independent variable \
-\\!\\(\\*RowBox[{\\\"r\\\"}]\\). Artificial boundary effects may be present \
-in the solution.\"", 2, 485, 149, 27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.9242780545748844`*^9, 3.92427810654056*^9, 3.9246075437478876`*^9, {
-   3.9246076956777687`*^9, 3.9246077343631105`*^9}, 3.9246083108383245`*^9, 
-   3.9246094425049405`*^9, {3.924610125779731*^9, 3.9246101637289896`*^9}, 
-   3.9246104041529837`*^9},
- CellLabel->
-  "During evaluation of \
-In[475]:=",ExpressionUUID->"883f261c-0966-4e22-bf4c-ea7a509b791b"],
-
-Cell[BoxData[
- TemplateBox[{
-  "NDSolve", "eerr", 
-   "\"Warning: scaled local spatial error estimate of \
-\\!\\(\\*RowBox[{\\\"2796.9637555959343`\\\"}]\\) at \\!\\(\\*RowBox[{\\\"tau\
-\\\"}]\\) = \\!\\(\\*RowBox[{\\\"50.`\\\"}]\\) in the direction of \
-independent variable \\!\\(\\*RowBox[{\\\"r\\\"}]\\) is much greater than the \
-prescribed error tolerance. Grid spacing with \
-\\!\\(\\*RowBox[{\\\"25\\\"}]\\) points may be too large to achieve the \
-desired accuracy or precision. A singularity may have formed or a smaller \
-grid spacing can be specified using the MaxStepSize or MinPoints method \
-options.\"", 2, 485, 150, 27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.9242780545748844`*^9, 3.92427810654056*^9, 3.9246075437478876`*^9, {
-   3.9246076956777687`*^9, 3.9246077343631105`*^9}, 3.9246083108383245`*^9, 
-   3.9246094425049405`*^9, {3.924610125779731*^9, 3.9246101637289896`*^9}, 
-   3.9246104075896263`*^9},
- CellLabel->
-  "During evaluation of \
-In[475]:=",ExpressionUUID->"930781db-77ee-4a66-abec-84db67803210"],
-
-Cell[BoxData[
- TemplateBox[{
-  "NDSolve", "ndsz", 
-   "\"At \\!\\(\\*RowBox[{\\\"chi\\\"}]\\) == \
-\\!\\(\\*RowBox[{\\\"642.8733426640746`\\\"}]\\), step size is effectively \
-zero; singularity or stiff system suspected.\"", 2, 485, 151, 
-   27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.9242780545748844`*^9, 3.92427810654056*^9, 3.9246075437478876`*^9, {
-   3.9246076956777687`*^9, 3.9246077343631105`*^9}, 3.9246083108383245`*^9, 
-   3.9246094425049405`*^9, {3.924610125779731*^9, 3.9246101637289896`*^9}, 
-   3.924610408721089*^9},
- CellLabel->
-  "During evaluation of \
-In[475]:=",ExpressionUUID->"cbc9bd02-8fd1-4c3d-845a-b322a8043eb9"],
-
-Cell[BoxData[
- TemplateBox[{
-  "NDSolve", "bcart", 
-   "\"Warning: an insufficient number of boundary conditions have been \
-specified for the direction of independent variable \
-\\!\\(\\*RowBox[{\\\"r\\\"}]\\). Artificial boundary effects may be present \
-in the solution.\"", 2, 485, 152, 27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.9242780545748844`*^9, 3.92427810654056*^9, 3.9246075437478876`*^9, {
-   3.9246076956777687`*^9, 3.9246077343631105`*^9}, 3.9246083108383245`*^9, 
-   3.9246094425049405`*^9, {3.924610125779731*^9, 3.9246101637289896`*^9}, 
-   3.9246104087441006`*^9},
- CellLabel->
-  "During evaluation of \
-In[475]:=",ExpressionUUID->"9dc6bc7b-7095-4e4c-a5f5-771d7b9240b6"],
-
-Cell[BoxData[
- TemplateBox[{
-  "General", "stop", 
-   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"NDSolve\\\", \
-\\\"::\\\", \\\"bcart\\\"}], \\\"MessageName\\\"]\\) will be suppressed \
-during this calculation.\"", 2, 485, 153, 27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.9242780545748844`*^9, 3.92427810654056*^9, 3.9246075437478876`*^9, {
-   3.9246076956777687`*^9, 3.9246077343631105`*^9}, 3.9246083108383245`*^9, 
-   3.9246094425049405`*^9, {3.924610125779731*^9, 3.9246101637289896`*^9}, 
-   3.924610408749109*^9},
- CellLabel->
-  "During evaluation of \
-In[475]:=",ExpressionUUID->"f2410b71-8c12-4307-9954-d53823bd0493"],
-
-Cell[BoxData[
- TemplateBox[{
-  "NDSolve", "eerr", 
-   "\"Warning: scaled local spatial error estimate of \
-\\!\\(\\*RowBox[{\\\"2796.9637555959343`\\\"}]\\) at \\!\\(\\*RowBox[{\\\"tau\
-\\\"}]\\) = \\!\\(\\*RowBox[{\\\"50.`\\\"}]\\) in the direction of \
-independent variable \\!\\(\\*RowBox[{\\\"r\\\"}]\\) is much greater than the \
-prescribed error tolerance. Grid spacing with \
-\\!\\(\\*RowBox[{\\\"25\\\"}]\\) points may be too large to achieve the \
-desired accuracy or precision. A singularity may have formed or a smaller \
-grid spacing can be specified using the MaxStepSize or MinPoints method \
-options.\"", 2, 485, 154, 27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.9242780545748844`*^9, 3.92427810654056*^9, 3.9246075437478876`*^9, {
-   3.9246076956777687`*^9, 3.9246077343631105`*^9}, 3.9246083108383245`*^9, 
-   3.9246094425049405`*^9, {3.924610125779731*^9, 3.9246101637289896`*^9}, 
-   3.9246104124186697`*^9},
- CellLabel->
-  "During evaluation of \
-In[475]:=",ExpressionUUID->"8bd863da-ff7a-4499-82c4-76e9ff370306"],
-
-Cell[BoxData[
- TemplateBox[{
-  "General", "stop", 
-   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"NDSolve\\\", \
-\\\"::\\\", \\\"eerr\\\"}], \\\"MessageName\\\"]\\) will be suppressed during \
-this calculation.\"", 2, 485, 155, 27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.9242780545748844`*^9, 3.92427810654056*^9, 3.9246075437478876`*^9, {
-   3.9246076956777687`*^9, 3.9246077343631105`*^9}, 3.9246083108383245`*^9, 
-   3.9246094425049405`*^9, {3.924610125779731*^9, 3.9246101637289896`*^9}, 
-   3.924610412424657*^9},
- CellLabel->
-  "During evaluation of \
-In[475]:=",ExpressionUUID->"88662f95-a07a-4978-bb54-09112d6cd53d"],
-
-Cell[BoxData[
- TemplateBox[{
-  "NDSolve", "ndsz", 
-   "\"At \\!\\(\\*RowBox[{\\\"chi\\\"}]\\) == \
-\\!\\(\\*RowBox[{\\\"187.6907491116155`\\\"}]\\), step size is effectively \
-zero; singularity or stiff system suspected.\"", 2, 485, 156, 
-   27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.9242780545748844`*^9, 3.92427810654056*^9, 3.9246075437478876`*^9, {
-   3.9246076956777687`*^9, 3.9246077343631105`*^9}, 3.9246083108383245`*^9, 
-   3.9246094425049405`*^9, {3.924610125779731*^9, 3.9246101637289896`*^9}, 
-   3.92461041389496*^9},
- CellLabel->
-  "During evaluation of \
-In[475]:=",ExpressionUUID->"52093b4a-1459-4d99-ac39-88ca0285eea7"],
-
-Cell[BoxData[
- TemplateBox[{
-  "General", "stop", 
-   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"NDSolve\\\", \
-\\\"::\\\", \\\"ndsz\\\"}], \\\"MessageName\\\"]\\) will be suppressed during \
-this calculation.\"", 2, 485, 157, 27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.9242780545748844`*^9, 3.92427810654056*^9, 3.9246075437478876`*^9, {
-   3.9246076956777687`*^9, 3.9246077343631105`*^9}, 3.9246083108383245`*^9, 
-   3.9246094425049405`*^9, {3.924610125779731*^9, 3.9246101637289896`*^9}, 
-   3.9246104138999305`*^9},
- CellLabel->
-  "During evaluation of \
-In[475]:=",ExpressionUUID->"fcc6fde8-6224-4d82-8ac6-75fabe1280eb"]
-}, Open  ]],
 
 Cell[BoxData[{
  RowBox[{
@@ -8358,8 +7783,6 @@ Cell[TextData[{
    3.9287545634480515`*^9}},ExpressionUUID->"50d2aaa2-7217-4458-94ea-\
 3a35a2ff4851"],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[{
  RowBox[{
   RowBox[{"tau0Global", "=", ".4"}], ";"}], "\[IndentingNewLine]", 
@@ -8614,180 +8037,6 @@ Cell[BoxData[{
    3.9246095139678516`*^9, 3.9246095328951936`*^9}},
  CellLabel->
   "In[427]:=",ExpressionUUID->"c19aa20c-ca01-4f14-9d81-eb7c7c189934"],
-
-Cell[BoxData[
- TemplateBox[{
-  "NDSolve", "bcart", 
-   "\"Warning: an insufficient number of boundary conditions have been \
-specified for the direction of independent variable \
-\\!\\(\\*RowBox[{\\\"r\\\"}]\\). Artificial boundary effects may be present \
-in the solution.\"", 2, 435, 95, 27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.924278404583449*^9, {3.924278468765011*^9, 3.9242784796647415`*^9}, 
-   3.924278685393014*^9, 3.924278716875552*^9, 3.9242788297724485`*^9, 
-   3.924278985323086*^9, 3.9242790565512247`*^9, {3.924279124791589*^9, 
-   3.9242791536213446`*^9}, {3.9242791907170515`*^9, 3.9242792083255434`*^9}, 
-   3.924609533385041*^9},
- CellLabel->
-  "During evaluation of \
-In[427]:=",ExpressionUUID->"b63d581a-b590-4961-9a3c-b4bd537fd852"],
-
-Cell[BoxData[
- TemplateBox[{
-  "NDSolve", "eerr", 
-   "\"Warning: scaled local spatial error estimate of \
-\\!\\(\\*RowBox[{\\\"1621.1580204472066`\\\"}]\\) at \\!\\(\\*RowBox[{\\\"tau\
-\\\"}]\\) = \\!\\(\\*RowBox[{\\\"50.`\\\"}]\\) in the direction of \
-independent variable \\!\\(\\*RowBox[{\\\"r\\\"}]\\) is much greater than the \
-prescribed error tolerance. Grid spacing with \
-\\!\\(\\*RowBox[{\\\"25\\\"}]\\) points may be too large to achieve the \
-desired accuracy or precision. A singularity may have formed or a smaller \
-grid spacing can be specified using the MaxStepSize or MinPoints method \
-options.\"", 2, 435, 96, 27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.924278404583449*^9, {3.924278468765011*^9, 3.9242784796647415`*^9}, 
-   3.924278685393014*^9, 3.924278716875552*^9, 3.9242788297724485`*^9, 
-   3.924278985323086*^9, 3.9242790565512247`*^9, {3.924279124791589*^9, 
-   3.9242791536213446`*^9}, {3.9242791907170515`*^9, 3.9242792083255434`*^9}, 
-   3.9246095360723715`*^9},
- CellLabel->
-  "During evaluation of \
-In[427]:=",ExpressionUUID->"78cf7842-7c12-4a99-9d15-d36430d9ce11"],
-
-Cell[BoxData[
- TemplateBox[{
-  "InterpolatingFunction", "dmval", 
-   "\"Input value \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"18.574771979517912`\
-\\\", \\\",\\\", RowBox[{\\\"-\\\", \\\"0.004248806236794415`\\\"}]}], \
-\\\"}\\\"}]\\) lies outside the range of data in the interpolating function. \
-Extrapolation will be used.\"", 2, 435, 97, 27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.924278404583449*^9, {3.924278468765011*^9, 3.9242784796647415`*^9}, 
-   3.924278685393014*^9, 3.924278716875552*^9, 3.9242788297724485`*^9, 
-   3.924278985323086*^9, 3.9242790565512247`*^9, {3.924279124791589*^9, 
-   3.9242791536213446`*^9}, {3.9242791907170515`*^9, 3.9242792083255434`*^9}, 
-   3.924609536345031*^9},
- CellLabel->
-  "During evaluation of \
-In[427]:=",ExpressionUUID->"9be77bb7-5b1c-4f9a-a61c-21d242eb449f"],
-
-Cell[BoxData[
- TemplateBox[{
-  "InterpolatingFunction", "dmval", 
-   "\"Input value \\!\\(\\*RowBox[{\\\"{\\\", \
-RowBox[{\\\"18.86701873770861`\\\", \\\",\\\", RowBox[{\\\"-\\\", \
-\\\"0.06251252592327183`\\\"}]}], \\\"}\\\"}]\\) lies outside the range of \
-data in the interpolating function. Extrapolation will be used.\"", 2, 435, 
-   98, 27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.924278404583449*^9, {3.924278468765011*^9, 3.9242784796647415`*^9}, 
-   3.924278685393014*^9, 3.924278716875552*^9, 3.9242788297724485`*^9, 
-   3.924278985323086*^9, 3.9242790565512247`*^9, {3.924279124791589*^9, 
-   3.9242791536213446`*^9}, {3.9242791907170515`*^9, 3.9242792083255434`*^9}, 
-   3.924609536395399*^9},
- CellLabel->
-  "During evaluation of \
-In[427]:=",ExpressionUUID->"050539a1-8116-4c76-8a26-2e6a9268f015"],
-
-Cell[BoxData[
- TemplateBox[{
-  "InterpolatingFunction", "dmval", 
-   "\"Input value \\!\\(\\*RowBox[{\\\"{\\\", \
-RowBox[{\\\"18.86701873770861`\\\", \\\",\\\", RowBox[{\\\"-\\\", \
-\\\"0.06251252592327183`\\\"}]}], \\\"}\\\"}]\\) lies outside the range of \
-data in the interpolating function. Extrapolation will be used.\"", 2, 435, 
-   99, 27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.924278404583449*^9, {3.924278468765011*^9, 3.9242784796647415`*^9}, 
-   3.924278685393014*^9, 3.924278716875552*^9, 3.9242788297724485`*^9, 
-   3.924278985323086*^9, 3.9242790565512247`*^9, {3.924279124791589*^9, 
-   3.9242791536213446`*^9}, {3.9242791907170515`*^9, 3.9242792083255434`*^9}, 
-   3.924609536395399*^9},
- CellLabel->
-  "During evaluation of \
-In[427]:=",ExpressionUUID->"fe5459e0-8af6-41c2-9c94-5ea9a2926b54"],
-
-Cell[BoxData[
- TemplateBox[{
-  "General", "stop", 
-   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"InterpolatingFunction\\\
-\", \\\"::\\\", \\\"dmval\\\"}], \\\"MessageName\\\"]\\) will be suppressed \
-during this calculation.\"", 2, 435, 100, 27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.924278404583449*^9, {3.924278468765011*^9, 3.9242784796647415`*^9}, 
-   3.924278685393014*^9, 3.924278716875552*^9, 3.9242788297724485`*^9, 
-   3.924278985323086*^9, 3.9242790565512247`*^9, {3.924279124791589*^9, 
-   3.9242791536213446`*^9}, {3.9242791907170515`*^9, 3.9242792083255434`*^9}, 
-   3.924609536395399*^9},
- CellLabel->
-  "During evaluation of \
-In[427]:=",ExpressionUUID->"49827a73-a1a2-4484-a152-a4fd6c496014"],
-
-Cell[BoxData[
- TemplateBox[{
-  "NDSolve", "bcart", 
-   "\"Warning: an insufficient number of boundary conditions have been \
-specified for the direction of independent variable \
-\\!\\(\\*RowBox[{\\\"r\\\"}]\\). Artificial boundary effects may be present \
-in the solution.\"", 2, 435, 101, 27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.924278404583449*^9, {3.924278468765011*^9, 3.9242784796647415`*^9}, 
-   3.924278685393014*^9, 3.924278716875552*^9, 3.9242788297724485`*^9, 
-   3.924278985323086*^9, 3.9242790565512247`*^9, {3.924279124791589*^9, 
-   3.9242791536213446`*^9}, {3.9242791907170515`*^9, 3.9242792083255434`*^9}, 
-   3.924609537494963*^9},
- CellLabel->
-  "During evaluation of \
-In[427]:=",ExpressionUUID->"b66bcf08-1cb1-45e2-98f9-140d575dff42"],
-
-Cell[BoxData[
- TemplateBox[{
-  "NDSolve", "eerr", 
-   "\"Warning: scaled local spatial error estimate of \
-\\!\\(\\*RowBox[{\\\"2796.9637555959343`\\\"}]\\) at \\!\\(\\*RowBox[{\\\"tau\
-\\\"}]\\) = \\!\\(\\*RowBox[{\\\"50.`\\\"}]\\) in the direction of \
-independent variable \\!\\(\\*RowBox[{\\\"r\\\"}]\\) is much greater than the \
-prescribed error tolerance. Grid spacing with \
-\\!\\(\\*RowBox[{\\\"25\\\"}]\\) points may be too large to achieve the \
-desired accuracy or precision. A singularity may have formed or a smaller \
-grid spacing can be specified using the MaxStepSize or MinPoints method \
-options.\"", 2, 435, 102, 27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.924278404583449*^9, {3.924278468765011*^9, 3.9242784796647415`*^9}, 
-   3.924278685393014*^9, 3.924278716875552*^9, 3.9242788297724485`*^9, 
-   3.924278985323086*^9, 3.9242790565512247`*^9, {3.924279124791589*^9, 
-   3.9242791536213446`*^9}, {3.9242791907170515`*^9, 3.9242792083255434`*^9}, 
-   3.9246095411246834`*^9},
- CellLabel->
-  "During evaluation of \
-In[427]:=",ExpressionUUID->"a6d8a4ac-8708-4df4-88ae-808d3fd2e9ac"],
-
-Cell[BoxData[
- TemplateBox[{
-  "NDSolve", "ndsz", 
-   "\"At \\!\\(\\*RowBox[{\\\"chi\\\"}]\\) == \
-\\!\\(\\*RowBox[{\\\"187.6907491116155`\\\"}]\\), step size is effectively \
-zero; singularity or stiff system suspected.\"", 2, 435, 103, 
-   27481405382383056118, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{
-  3.924278404583449*^9, {3.924278468765011*^9, 3.9242784796647415`*^9}, 
-   3.924278685393014*^9, 3.924278716875552*^9, 3.9242788297724485`*^9, 
-   3.924278985323086*^9, 3.9242790565512247`*^9, {3.924279124791589*^9, 
-   3.9242791536213446`*^9}, {3.9242791907170515`*^9, 3.9242792083255434`*^9}, 
-   3.9246095425782585`*^9},
- CellLabel->
-  "During evaluation of \
-In[427]:=",ExpressionUUID->"9f7cdb10-f6b8-4c3c-8e54-ba284fb0a889"]
-}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -11565,133 +10814,81 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 965, 23, 67, "Input",ExpressionUUID->"7de50d96-5ef4-4b02-b4b0-453c49fa6feb"],
+Cell[558, 20, 1036, 24, 67, "Input",ExpressionUUID->"7de50d96-5ef4-4b02-b4b0-453c49fa6feb"],
 Cell[CellGroupData[{
-Cell[1548, 47, 290, 6, 67, "Section",ExpressionUUID->"d08bd3a4-c426-4376-bce8-96f949ef2553"],
+Cell[1619, 48, 290, 6, 67, "Section",ExpressionUUID->"d08bd3a4-c426-4376-bce8-96f949ef2553"],
 Cell[CellGroupData[{
-Cell[1863, 57, 279, 6, 54, "Subsection",ExpressionUUID->"df169965-4a1c-4273-8bd1-c614a9e59324"],
-Cell[2145, 65, 759, 21, 35, "Text",ExpressionUUID->"a7151188-d0f8-4ca2-bdaa-eb29a718f352"],
-Cell[2907, 88, 7045, 186, 371, "Input",ExpressionUUID->"aad45df8-ce24-4733-93b8-d8490eb2ef33"]
+Cell[1934, 58, 279, 6, 54, "Subsection",ExpressionUUID->"df169965-4a1c-4273-8bd1-c614a9e59324"],
+Cell[2216, 66, 759, 21, 35, "Text",ExpressionUUID->"a7151188-d0f8-4ca2-bdaa-eb29a718f352"],
+Cell[2978, 89, 7045, 186, 371, "Input",ExpressionUUID->"aad45df8-ce24-4733-93b8-d8490eb2ef33"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[10001, 280, 288, 4, 67, "Section",ExpressionUUID->"c05d4ee6-48e8-4a0d-9887-6fb5068d2bcf"],
-Cell[10292, 286, 33617, 798, 1879, "Input",ExpressionUUID->"b32b2ba7-3a37-4218-9fae-7571751eef79"]
+Cell[10072, 281, 288, 4, 67, "Section",ExpressionUUID->"c05d4ee6-48e8-4a0d-9887-6fb5068d2bcf"],
+Cell[10363, 287, 33617, 798, 1879, "Input",ExpressionUUID->"b32b2ba7-3a37-4218-9fae-7571751eef79"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[43946, 1089, 360, 6, 67, "Section",ExpressionUUID->"7e800de1-456d-4ee8-b58c-246b3fa153f6"],
+Cell[44017, 1090, 360, 6, 66, "Section",ExpressionUUID->"7e800de1-456d-4ee8-b58c-246b3fa153f6"],
 Cell[CellGroupData[{
-Cell[44331, 1099, 19535, 364, 885, "Input",ExpressionUUID->"5d34089f-53cc-4920-a2f6-ed08d66fd9c2"],
-Cell[63869, 1465, 509, 11, 28, "Message",ExpressionUUID->"db66e115-9b22-428f-8fa4-38b95d1f1d8f"],
-Cell[64381, 1478, 849, 16, 46, "Message",ExpressionUUID->"2fb4a06d-3f36-4d0a-8696-8d9fcd8e2371"],
-Cell[65233, 1496, 515, 11, 28, "Message",ExpressionUUID->"29ae4916-98c6-48a9-91cd-f8ba20cc774e"],
-Cell[65751, 1509, 551, 11, 28, "Message",ExpressionUUID->"4645bfc3-0e1e-461a-926a-29c0e30621dc"],
-Cell[66305, 1522, 515, 11, 28, "Message",ExpressionUUID->"38a5444b-4134-4166-90d1-8377dc20b572"],
-Cell[66823, 1535, 553, 11, 28, "Message",ExpressionUUID->"bacecb16-a2b5-4082-b9c8-57e056a3e768"],
-Cell[67379, 1548, 558, 11, 28, "Message",ExpressionUUID->"6b18a621-7ecf-4bf9-bde0-381330646d9a"],
-Cell[67940, 1561, 560, 12, 28, "Message",ExpressionUUID->"4d60e736-f3f0-4a43-97b7-a72612b83483"],
-Cell[68503, 1575, 560, 12, 28, "Message",ExpressionUUID->"db321b44-add1-46c1-a601-33d632dd28e7"],
-Cell[69066, 1589, 469, 10, 28, "Message",ExpressionUUID->"673a9fb2-0ccc-42fb-a57c-a635c44fef15"],
-Cell[69538, 1601, 510, 11, 28, "Message",ExpressionUUID->"c190db71-5c85-4790-a609-83f0bd5f922e"],
-Cell[70051, 1614, 850, 16, 46, "Message",ExpressionUUID->"158e1c3d-ba21-4a2d-b722-13391d53f1ee"],
-Cell[70904, 1632, 508, 11, 28, "Message",ExpressionUUID->"194051bc-207f-4ed6-a44c-600d7b4d99c8"],
-Cell[71415, 1645, 453, 10, 28, "Message",ExpressionUUID->"0d2dff7b-683a-4856-8b12-778735ef7756"],
-Cell[71871, 1657, 852, 16, 46, "Message",ExpressionUUID->"5acb761b-0b75-48a2-b9a7-9aeaa2ed0ce7"],
-Cell[72726, 1675, 452, 10, 28, "Message",ExpressionUUID->"e3ebde26-4237-4247-915c-6974d6586642"],
-Cell[73181, 1687, 459, 11, 28, "Message",ExpressionUUID->"3f0e2b70-cc8f-4bbe-a17c-1b7752a2d796"],
-Cell[73643, 1700, 458, 11, 28, "Message",ExpressionUUID->"092e7481-b862-418d-b31e-adfb4010aea5"],
-Cell[74104, 1713, 459, 11, 28, "Message",ExpressionUUID->"2bd7d874-e310-42a4-b47e-0ac738903b39"],
-Cell[74566, 1726, 454, 10, 28, "Message",ExpressionUUID->"3148e9b2-6e64-4193-9cf8-5f5af989c37d"],
+Cell[44402, 1100, 19535, 364, 885, "Input",ExpressionUUID->"5d34089f-53cc-4920-a2f6-ed08d66fd9c2"],
 Cell[CellGroupData[{
-Cell[75045, 1740, 774, 15, 22, "Print",ExpressionUUID->"45464afa-bc82-48db-b337-86fc800de30d"],
-Cell[75822, 1757, 780, 16, 22, "Print",ExpressionUUID->"2e1bdf49-f79d-4d71-a215-d23d2391b175"],
-Cell[76605, 1775, 778, 16, 22, "Print",ExpressionUUID->"cf8135fc-69ba-4918-acbd-5fc2342b46c3"],
-Cell[77386, 1793, 781, 16, 22, "Print",ExpressionUUID->"59ee10f3-4fb3-4910-b5fb-7e26c6735be1"],
-Cell[78170, 1811, 774, 16, 22, "Print",ExpressionUUID->"d3787fdd-0bae-4d5a-aff3-2ea7f1be579e"],
-Cell[78947, 1829, 769, 15, 22, "Print",ExpressionUUID->"3394141e-3131-40b9-bb23-4e59b0e6df39"],
-Cell[79719, 1846, 776, 16, 22, "Print",ExpressionUUID->"03b145dc-cc8f-4e1f-9ae5-43814a47634c"],
-Cell[80498, 1864, 769, 15, 22, "Print",ExpressionUUID->"7b586825-e8f9-4fe9-ba01-ad535efa9de7"],
-Cell[81270, 1881, 773, 16, 22, "Print",ExpressionUUID->"33e2e629-af5c-4c46-8458-2d3f1107e8e5"],
-Cell[82046, 1899, 785, 16, 22, "Print",ExpressionUUID->"b34e3bea-7acb-42c3-b6cc-94592bae975c"],
-Cell[82834, 1917, 771, 15, 22, "Print",ExpressionUUID->"a444ed2b-d8a6-496c-8483-0f05ff57ef0c"],
-Cell[83608, 1934, 785, 16, 22, "Print",ExpressionUUID->"c956300a-3933-48ab-a0fc-97fe1cfb1ea9"],
-Cell[84396, 1952, 773, 15, 22, "Print",ExpressionUUID->"600dba83-d715-4875-b6d7-6be55abd7283"],
-Cell[85172, 1969, 770, 15, 22, "Print",ExpressionUUID->"daceba00-fa7e-4bb2-9eff-d9afb66af76f"],
-Cell[85945, 1986, 781, 16, 22, "Print",ExpressionUUID->"93e3464f-1331-4321-af17-55ae65bbba48"],
-Cell[86729, 2004, 765, 15, 22, "Print",ExpressionUUID->"ab528e1d-2aa8-4520-899c-f4cd084e4275"]
-}, Open  ]],
-Cell[87509, 2022, 599, 12, 46, "Message",ExpressionUUID->"025835c6-b81b-45fb-a2ae-78e9f1356c92"],
-Cell[CellGroupData[{
-Cell[88133, 2038, 775, 16, 22, "Print",ExpressionUUID->"606805eb-1077-4c90-818b-a74691c87a42"],
-Cell[88911, 2056, 773, 16, 22, "Print",ExpressionUUID->"ea302af3-f971-476b-9d5a-974fe28d7e8e"],
-Cell[89687, 2074, 782, 16, 22, "Print",ExpressionUUID->"9d1bbd7c-cd94-443d-a4cf-5bac45ce4a32"],
-Cell[90472, 2092, 773, 15, 22, "Print",ExpressionUUID->"d45c3942-ae4f-4c2d-a840-da3e8b5f6fe9"],
-Cell[91248, 2109, 782, 16, 22, "Print",ExpressionUUID->"7292b85a-22e5-45a6-a90b-fcd01b898d69"],
-Cell[92033, 2127, 771, 15, 22, "Print",ExpressionUUID->"db9058de-0410-4f5d-9128-6632ee71ae8f"],
-Cell[92807, 2144, 779, 16, 22, "Print",ExpressionUUID->"2185a1fc-105a-4ad5-aef9-de2e9d2bdef3"],
-Cell[93589, 2162, 776, 16, 22, "Print",ExpressionUUID->"e930bff8-0e85-41a1-91e5-6f2c7a2f2878"],
-Cell[94368, 2180, 778, 16, 22, "Print",ExpressionUUID->"fbbd4703-72b9-4564-8fe9-06b353045864"],
-Cell[95149, 2198, 771, 15, 22, "Print",ExpressionUUID->"c5cda3de-1380-4575-bdec-700fd57c27e0"],
-Cell[95923, 2215, 769, 15, 22, "Print",ExpressionUUID->"06aeb8a7-2a4e-449f-964a-1f8d0ec9f4ac"]
+Cell[63962, 1468, 774, 15, 22, "Print",ExpressionUUID->"45464afa-bc82-48db-b337-86fc800de30d"],
+Cell[64739, 1485, 780, 16, 22, "Print",ExpressionUUID->"2e1bdf49-f79d-4d71-a215-d23d2391b175"],
+Cell[65522, 1503, 778, 16, 22, "Print",ExpressionUUID->"cf8135fc-69ba-4918-acbd-5fc2342b46c3"],
+Cell[66303, 1521, 781, 16, 22, "Print",ExpressionUUID->"59ee10f3-4fb3-4910-b5fb-7e26c6735be1"],
+Cell[67087, 1539, 774, 16, 22, "Print",ExpressionUUID->"d3787fdd-0bae-4d5a-aff3-2ea7f1be579e"],
+Cell[67864, 1557, 769, 15, 22, "Print",ExpressionUUID->"3394141e-3131-40b9-bb23-4e59b0e6df39"],
+Cell[68636, 1574, 776, 16, 22, "Print",ExpressionUUID->"03b145dc-cc8f-4e1f-9ae5-43814a47634c"],
+Cell[69415, 1592, 769, 15, 22, "Print",ExpressionUUID->"7b586825-e8f9-4fe9-ba01-ad535efa9de7"],
+Cell[70187, 1609, 773, 16, 22, "Print",ExpressionUUID->"33e2e629-af5c-4c46-8458-2d3f1107e8e5"],
+Cell[70963, 1627, 785, 16, 22, "Print",ExpressionUUID->"b34e3bea-7acb-42c3-b6cc-94592bae975c"],
+Cell[71751, 1645, 771, 15, 22, "Print",ExpressionUUID->"a444ed2b-d8a6-496c-8483-0f05ff57ef0c"],
+Cell[72525, 1662, 785, 16, 22, "Print",ExpressionUUID->"c956300a-3933-48ab-a0fc-97fe1cfb1ea9"],
+Cell[73313, 1680, 773, 15, 22, "Print",ExpressionUUID->"600dba83-d715-4875-b6d7-6be55abd7283"],
+Cell[74089, 1697, 770, 15, 22, "Print",ExpressionUUID->"daceba00-fa7e-4bb2-9eff-d9afb66af76f"],
+Cell[74862, 1714, 781, 16, 22, "Print",ExpressionUUID->"93e3464f-1331-4321-af17-55ae65bbba48"],
+Cell[75646, 1732, 765, 15, 22, "Print",ExpressionUUID->"ab528e1d-2aa8-4520-899c-f4cd084e4275"],
+Cell[76414, 1749, 775, 16, 22, "Print",ExpressionUUID->"606805eb-1077-4c90-818b-a74691c87a42"],
+Cell[77192, 1767, 773, 16, 22, "Print",ExpressionUUID->"ea302af3-f971-476b-9d5a-974fe28d7e8e"],
+Cell[77968, 1785, 782, 16, 22, "Print",ExpressionUUID->"9d1bbd7c-cd94-443d-a4cf-5bac45ce4a32"],
+Cell[78753, 1803, 773, 15, 22, "Print",ExpressionUUID->"d45c3942-ae4f-4c2d-a840-da3e8b5f6fe9"],
+Cell[79529, 1820, 782, 16, 22, "Print",ExpressionUUID->"7292b85a-22e5-45a6-a90b-fcd01b898d69"],
+Cell[80314, 1838, 771, 15, 22, "Print",ExpressionUUID->"db9058de-0410-4f5d-9128-6632ee71ae8f"],
+Cell[81088, 1855, 779, 16, 22, "Print",ExpressionUUID->"2185a1fc-105a-4ad5-aef9-de2e9d2bdef3"],
+Cell[81870, 1873, 776, 16, 22, "Print",ExpressionUUID->"e930bff8-0e85-41a1-91e5-6f2c7a2f2878"],
+Cell[82649, 1891, 778, 16, 22, "Print",ExpressionUUID->"fbbd4703-72b9-4564-8fe9-06b353045864"],
+Cell[83430, 1909, 771, 15, 22, "Print",ExpressionUUID->"c5cda3de-1380-4575-bdec-700fd57c27e0"],
+Cell[84204, 1926, 769, 15, 22, "Print",ExpressionUUID->"06aeb8a7-2a4e-449f-964a-1f8d0ec9f4ac"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[96741, 2236, 5491, 126, 174, "Input",ExpressionUUID->"b17ce4c7-99ac-4002-91a0-2480786e884e"],
-Cell[102235, 2364, 47823, 1050, 473, "Output",ExpressionUUID->"dc446785-6b5c-47c8-aa74-054fe369fe6f"]
+Cell[85022, 1947, 5491, 126, 174, "Input",ExpressionUUID->"b17ce4c7-99ac-4002-91a0-2480786e884e"],
+Cell[90516, 2075, 47823, 1050, 473, "Output",ExpressionUUID->"dc446785-6b5c-47c8-aa74-054fe369fe6f"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[150107, 3420, 484, 7, 67, "Section",ExpressionUUID->"701027f7-ff9b-4c4f-9e8a-1175b83e6c7b"],
+Cell[138388, 3131, 484, 7, 66, "Section",ExpressionUUID->"701027f7-ff9b-4c4f-9e8a-1175b83e6c7b"],
 Cell[CellGroupData[{
-Cell[150616, 3431, 3999, 107, 223, "Input",ExpressionUUID->"3ea61328-a58f-42fc-9e11-3819af5cf091"],
-Cell[154618, 3540, 180001, 3124, 282, "Output",ExpressionUUID->"8ccc7cd3-f0be-4480-967b-a57e73605ebc"]
+Cell[138897, 3142, 3999, 107, 204, "Input",ExpressionUUID->"3ea61328-a58f-42fc-9e11-3819af5cf091"],
+Cell[142899, 3251, 180001, 3124, 258, "Output",ExpressionUUID->"8ccc7cd3-f0be-4480-967b-a57e73605ebc"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[334668, 6670, 651, 14, 67, "Section",ExpressionUUID->"4404e552-cca8-4341-be70-22ca2787cb73"],
-Cell[CellGroupData[{
-Cell[335344, 6688, 13600, 250, 371, "Input",ExpressionUUID->"2b3a8c2c-4a23-4b62-8a46-66ce54b4b190"],
-Cell[348947, 6940, 743, 15, 28, "Message",ExpressionUUID->"b3a6a986-504e-46e7-80bf-0f3d69eead6b"],
-Cell[349693, 6957, 1085, 20, 46, "Message",ExpressionUUID->"d415b1cf-fbe2-47fa-b26e-014376c76efe"],
-Cell[350781, 6979, 767, 15, 28, "Message",ExpressionUUID->"386c519a-f71f-4140-a3d9-ada3ab2ff98e"],
-Cell[351551, 6996, 768, 15, 28, "Message",ExpressionUUID->"ea611fa2-668d-40dc-87a9-116c3bfe82c5"],
-Cell[352322, 7013, 771, 15, 28, "Message",ExpressionUUID->"caa72847-0d07-437e-baac-482eddf3871c"],
-Cell[353096, 7030, 700, 14, 28, "Message",ExpressionUUID->"84c00075-26ee-42b8-9b1c-d9412bbf6885"],
-Cell[353799, 7046, 691, 15, 28, "Message",ExpressionUUID->"ae25c4f1-1a7a-48b9-b7fd-9c07f79cf2e6"],
-Cell[354493, 7063, 743, 15, 28, "Message",ExpressionUUID->"883f261c-0966-4e22-bf4c-ea7a509b791b"],
-Cell[355239, 7080, 1085, 20, 46, "Message",ExpressionUUID->"930781db-77ee-4a66-abec-84db67803210"],
-Cell[356327, 7102, 692, 15, 28, "Message",ExpressionUUID->"cbc9bd02-8fd1-4c3d-845a-b322a8043eb9"],
-Cell[357022, 7119, 743, 15, 28, "Message",ExpressionUUID->"9dc6bc7b-7095-4e4c-a5f5-771d7b9240b6"],
-Cell[357768, 7136, 686, 14, 28, "Message",ExpressionUUID->"f2410b71-8c12-4307-9954-d53823bd0493"],
-Cell[358457, 7152, 1085, 20, 46, "Message",ExpressionUUID->"8bd863da-ff7a-4499-82c4-76e9ff370306"],
-Cell[359545, 7174, 685, 14, 28, "Message",ExpressionUUID->"88662f95-a07a-4978-bb54-09112d6cd53d"],
-Cell[360233, 7190, 691, 15, 28, "Message",ExpressionUUID->"52093b4a-1459-4d99-ac39-88ca0285eea7"],
-Cell[360927, 7207, 687, 14, 28, "Message",ExpressionUUID->"fcc6fde8-6224-4d82-8ac6-75fabe1280eb"]
-}, Open  ]],
-Cell[361629, 7224, 2182, 55, 86, "Input",ExpressionUUID->"6c2f249c-be01-4ef1-b26e-39cca06e4d82"],
-Cell[363814, 7281, 51512, 1056, 341, "Input",ExpressionUUID->"8dc1de0b-87da-4710-8584-4551ca9fc485"]
+Cell[322949, 6381, 651, 14, 66, "Section",ExpressionUUID->"4404e552-cca8-4341-be70-22ca2787cb73"],
+Cell[323603, 6397, 13600, 250, 352, "Input",ExpressionUUID->"2b3a8c2c-4a23-4b62-8a46-66ce54b4b190"],
+Cell[337206, 6649, 2182, 55, 67, "Input",ExpressionUUID->"6c2f249c-be01-4ef1-b26e-39cca06e4d82"],
+Cell[339391, 6706, 51512, 1056, 341, "Input",ExpressionUUID->"8dc1de0b-87da-4710-8584-4551ca9fc485"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[415363, 8342, 776, 16, 67, "Section",ExpressionUUID->"50d2aaa2-7217-4458-94ea-3a35a2ff4851"],
+Cell[390940, 7767, 776, 16, 66, "Section",ExpressionUUID->"50d2aaa2-7217-4458-94ea-3a35a2ff4851"],
+Cell[391719, 7785, 14067, 253, 390, "Input",ExpressionUUID->"c19aa20c-ca01-4f14-9d81-eb7c7c189934"],
 Cell[CellGroupData[{
-Cell[416164, 8362, 14067, 253, 390, "Input",ExpressionUUID->"c19aa20c-ca01-4f14-9d81-eb7c7c189934"],
-Cell[430234, 8617, 811, 16, 28, "Message",ExpressionUUID->"b63d581a-b590-4961-9a3c-b4bd537fd852"],
-Cell[431048, 8635, 1155, 21, 46, "Message",ExpressionUUID->"78cf7842-7c12-4a99-9d15-d36430d9ce11"],
-Cell[432206, 8658, 862, 16, 28, "Message",ExpressionUUID->"9be77bb7-5b1c-4f9a-a61c-21d242eb449f"],
-Cell[433071, 8676, 864, 17, 28, "Message",ExpressionUUID->"050539a1-8116-4c76-8a26-2e6a9268f015"],
-Cell[433938, 8695, 864, 17, 28, "Message",ExpressionUUID->"fe5459e0-8af6-41c2-9c94-5ea9a2926b54"],
-Cell[434805, 8714, 771, 15, 28, "Message",ExpressionUUID->"49827a73-a1a2-4484-a152-a4fd6c496014"],
-Cell[435579, 8731, 812, 16, 28, "Message",ExpressionUUID->"b66bcf08-1cb1-45e2-98f9-140d575dff42"],
-Cell[436394, 8749, 1156, 21, 46, "Message",ExpressionUUID->"a6d8a4ac-8708-4df4-88ae-808d3fd2e9ac"],
-Cell[437553, 8772, 765, 16, 28, "Message",ExpressionUUID->"9f7cdb10-f6b8-4c3c-8e54-ba284fb0a889"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[438355, 8793, 126, 2, 28, "Input",ExpressionUUID->"9afa993b-e329-4988-a8ef-a5de2837aa9f"],
-Cell[438484, 8797, 44569, 1067, 1973, "Output",ExpressionUUID->"83915c05-6a1c-4c1e-99b7-fa77a57eabdf"]
+Cell[405811, 8042, 126, 2, 28, "Input",ExpressionUUID->"9afa993b-e329-4988-a8ef-a5de2837aa9f"],
+Cell[405940, 8046, 44569, 1067, 1973, "Output",ExpressionUUID->"83915c05-6a1c-4c1e-99b7-fa77a57eabdf"]
 }, Closed]],
-Cell[483068, 9867, 2231, 56, 84, "Input",ExpressionUUID->"19663ea7-5db1-4e45-a321-b76a50b12350"],
-Cell[485302, 9925, 38824, 809, 318, "Input",ExpressionUUID->"b79cb323-78e9-4c16-ad05-7b7bd38c8350"],
-Cell[524129, 10736, 38892, 810, 317, "Input",ExpressionUUID->"d30a8466-611d-457c-97b1-343ae1a2cada"]
+Cell[450524, 9116, 2231, 56, 66, "Input",ExpressionUUID->"19663ea7-5db1-4e45-a321-b76a50b12350"],
+Cell[452758, 9174, 38824, 809, 318, "Input",ExpressionUUID->"b79cb323-78e9-4c16-ad05-7b7bd38c8350"],
+Cell[491585, 9985, 38892, 810, 317, "Input",ExpressionUUID->"d30a8466-611d-457c-97b1-343ae1a2cada"]
 }, Open  ]]
 }
 ]
